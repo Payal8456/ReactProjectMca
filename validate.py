@@ -5,7 +5,7 @@ import webbrowser
 
 print(sys.argv[1])
 
-url="https://api.openweathermap.org/data/2.5/weather?q="+sys.argv[1]+"&appid=956ce029a2b7c043d7a7d36cdaa4acd9"
+url="https://api.openweathermap.org/data/2.5/weather?q="+sys.argv[1]+"&appid="
 response_API = requests.get(url)
 
 
